@@ -351,4 +351,5 @@ MigrationBackup/
 
 .DS_Store
 
-*.json
+config.json
+package-lock.json

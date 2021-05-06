@@ -1,0 +1,6 @@
+{
+    "prefix": "p!",
+    "token": "your.token.here",
+    "ownerID": "your discord user ID here, enable Developer Mode on Discord and right click on your avatar",
+    "blacklistedIDs": [358325195443798020]
+}

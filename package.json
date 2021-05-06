@@ -1,0 +1,33 @@
+{
+  "name": "pow-bot",
+  "version": "0.1.0-alpha.0",
+  "description": "A programming-themed Discord bot coded in Javascript, made for the May 2021 WOK Discord Bot Competition.",
+  "main": "pow.js",
+  "scripts": {
+    "test": "p!help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiyi-m/pow-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "programming",
+    "wok"
+  ],
+  "author": "foop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weiyi-m/pow-bot/issues"
+  },
+  "homepage": "https://github.com/weiyi-m/pow-bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js": "^12.5.3",
+    "mongoose": "^5.12.7",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  }
+}

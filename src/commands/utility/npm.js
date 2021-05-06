@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const fetch = require('node-fetch');
 const chalk = require('chalk');
-const { faBreadSlice } = require('@fortawesome/free-solid-svg-icons');
 
 module.exports = {
     name: 'npm',
     description: "Searches the NPM registry for a package",
+    usage: '<name of package>',
     cooldown: 3,
     aliases: ['npmsearch', 'npmpkg', 'npmpackage', 'npmregistry', 'npmfind'],
     async execute(message, args) {

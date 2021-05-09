@@ -23,7 +23,7 @@ module.exports = {
             }));
 
         if (!body) {
-            return message.reply('there is no NPM package with that name that was found!')
+            return message.reply('no NPM package with that name that was found!')
         }
 
         const version = body.versions[body['dist-tags'].latest];

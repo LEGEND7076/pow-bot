@@ -9,7 +9,7 @@ module.exports = {
     async execute(message, args) {
 
         if (!args)  {
-            return message.reply('please use a proper repository name ("user"/"repo", e.g. github/fetch)')
+            return message.reply('please use a proper repository name (user/repo, e.g. github/fetch)')
         }
 
         const [username, repository] = args[0].split("/");
